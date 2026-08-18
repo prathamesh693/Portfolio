@@ -51,6 +51,15 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
+import dataScienceCert from "./Data_Science_Cert.jpg";
+import sqlAdvancedCert from "./SQL_advance_Cert.jpg";
+import oracleDsCert from "./Oracle_DS_Cert.jpg";
+import projectManagementCert from "./Project_Management.jpg";
+import advancedDetectionPaper from "./advavance_detection_Paper.jpg";
+import smartVisionPatent from "./Smart_Vision_Patent.jpg";
+import opticalEnhancementPatent from "./Optical_Enhancement_Patent.jpg";
+import cuttingEdgePaper from "./Cutting_Edge_Paper.png";
+
 export {
   logo,
   scoe_logo,
@@ -100,4 +109,12 @@ export {
   ct,
   scatterpie,
   tks,
+  dataScienceCert,
+  sqlAdvancedCert,
+  oracleDsCert,
+  projectManagementCert,
+  advancedDetectionPaper,
+  smartVisionPatent,
+  opticalEnhancementPatent,
+  cuttingEdgePaper,
 };

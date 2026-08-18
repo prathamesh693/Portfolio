@@ -3,7 +3,13 @@ import { motion, AnimatePresence } from "framer-motion";
 import { styles } from "../styles";
 import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
-import { carrent, jobit, tripguide } from "../assets";
+import {
+  dataScienceCert,
+  sqlAdvancedCert,
+  oracleDsCert,
+  projectManagementCert,
+  carrent,
+} from "../assets";
 
 const CertificationCard = ({ index, title, issuer, date, description, image, onClick }) => (
   <motion.div
@@ -48,7 +54,7 @@ const Certification = () => {
       issuer: "Wipro",
       date: "2025",
       description: "Demonstrated deep expertise in statistical analysis, predictive modeling, machine learning workflows, and advanced data processing techniques to solve complex industrial business challenges.",
-      image: carrent,
+      image: dataScienceCert,
       credentialUrl: "https://www.wipro.com/",
     },
     {
@@ -56,7 +62,7 @@ const Certification = () => {
       issuer: "Sanjivani College of Engineering",
       date: "2024 - 2025",
       description: "A comprehensive year-long specialization program covering data science methodologies, exploratory data analysis, machine learning algorithms, and interactive visualization tools.",
-      image: jobit,
+      image: dataScienceCert,
       credentialUrl: "https://sanjivani.org.in/",
     },
     {
@@ -64,7 +70,7 @@ const Certification = () => {
       issuer: "HackerRank",
       date: "2025",
       description: "Verified expert-level capabilities in writing complex analytical SQL queries, optimizing query performance, schema design, and database indexing strategies.",
-      image: tripguide,
+      image: sqlAdvancedCert,
       credentialUrl: "https://www.hackerrank.com/certificates/advanced-sql",
     },
     {
@@ -72,7 +78,7 @@ const Certification = () => {
       issuer: "Oracle",
       date: "2025",
       description: "Professional certification covering Oracle Cloud Infrastructure (OCI) Data Science capabilities. Gained experience in model training, ML pipelines, and scalable cloud analytics.",
-      image: carrent,
+      image: oracleDsCert,
       credentialUrl: "https://education.oracle.com/",
     },
     {
@@ -80,7 +86,7 @@ const Certification = () => {
       issuer: "NPTEL",
       date: "2025",
       description: "Certified coursework covering modern methodologies in project management, agile lifecycles, structured planning, risk assessment, and team dynamics optimization.",
-      image: jobit,
+      image: projectManagementCert,
       credentialUrl: "https://nptel.ac.in/",
     }
   ];

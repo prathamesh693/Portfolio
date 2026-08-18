@@ -4,7 +4,12 @@ import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
-import { carrent, jobit, tripguide } from "../assets";
+import {
+  advancedDetectionPaper,
+  smartVisionPatent,
+  opticalEnhancementPatent,
+  cuttingEdgePaper,
+} from "../assets";
 
 const PublicationCard = ({ index, title, type, date, description, link, image }) => (
   <motion.div
@@ -50,7 +55,7 @@ const Publications = () => {
       type: "Research Paper",
       date: "Published 2025",
       description: "Author. Evaluated Narrow Band Imaging (NBI) and Hyperspectral Imaging (HSI) techniques for small intestine ulcer classification, advancing medical computer vision and diagnostics precision.",
-      image: carrent,
+      image: advancedDetectionPaper,
       link: "https://github.com/prathamesh693",
     },
     {
@@ -58,7 +63,7 @@ const Publications = () => {
       type: "Patent Published",
       date: "Aug 2025",
       description: "Lead Inventor. Developed assistive wearable technology integrating YOLO-based object detection and real-time speech feedback to aid distance vision navigation for visually impaired individuals.",
-      image: jobit,
+      image: smartVisionPatent,
       link: "https://github.com/prathamesh693",
     },
     {
@@ -66,7 +71,7 @@ const Publications = () => {
       type: "Patent Granted",
       date: "Granted Apr 2025",
       description: "Lead Inventor. Granted patent for mechanical optical adjustment mechanisms built into spectacle frames, providing tunable focus correction for distance vision.",
-      image: tripguide,
+      image: opticalEnhancementPatent,
       link: "https://github.com/prathamesh693",
     },
     {
@@ -74,7 +79,7 @@ const Publications = () => {
       type: "Conference Paper",
       date: "Published 2022",
       description: "Co-author. Designed an IoT-based security solution implementing OTP authorization algorithms and hardware-software synchronization protocols for wireless home locks.",
-      image: carrent,
+      image: cuttingEdgePaper,
       link: "https://github.com/prathamesh693",
     }
   ];
